@@ -1,0 +1,19 @@
+compact()函数:
+$result = compact('变量名1', '变量名2', ['变量名3', '变量名4']...);
+则:
+$result = [
+        '变量名1' => '变量值1',
+        '变量名2' => '变量值2',
+        '变量名3' => '变量值3',
+        '变量名4' => '变量值4',
+    ];
+
+
+isBuildable():
+return $concrete === $abstract || $concrete instanceof Closure;
+这句话的意思是:
+$concrete === $abstract 或 $concrete 是闭包函数时 返回true
+否则 返回false
+
+
+
